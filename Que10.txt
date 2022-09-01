@@ -1,0 +1,25 @@
+
+Que.- What is null, undefined, and undeclared JavaScript variable?
+
+
+Ans.- null is a value in javascript , and it is pointing to nothing in memory.
+
+Ex- 
+
+var x= null;
+console.log(x); // null
+
+Ans.- when we declared a variable but not assign a value.
+
+Ex.- var y;
+
+    console.log(y);  // undefined
+
+Ans.- when we not declared a variable using let, const or var, this is undeclared variable.
+
+Ex.- 
+
+ console.let(z); // 
+ 
+ output will be :Uncaught ReferenceError: x is not defined
+

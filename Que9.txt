@@ -1,0 +1,13 @@
+
+que. -Explain the terms callback function in JavaScript.
+
+Ans.- A calback is a function that we can pass into another Function as an argument.
+
+function x(y){
+    console.log("x")
+    y();
+};
+
+x(function y(){
+    console.log(""This is output of y)
+});

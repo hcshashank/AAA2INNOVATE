@@ -1,0 +1,36 @@
+
+Explain the terms synchronous and asynchronous code.
+
+##synchronous =>
+
+javascript is synchronous single threaded programing langauge,
+In a synchronous programming model, things happen one at a time. When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.
+
+Ex- 
+
+function x(){
+    console.log("Hello world")
+}
+
+x();
+
+function y(){
+    console.log("Hello shashank")
+}
+
+y();
+
+##asynchronous =>
+An asynchronous model allows multiple things to happen at the same time. When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result.
+
+Ex-
+setTimeout(
+    function x(){
+    console.log("Hello world")
+}, 3000)
+
+function y(){
+    console.log("Hello shashank")
+}
+x();
+y();
